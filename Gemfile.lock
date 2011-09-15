@@ -29,6 +29,7 @@ GEM
       activemodel (= 3.0.10)
       activesupport (= 3.0.10)
     activesupport (3.0.10)
+    annotate (2.4.0)
     arel (2.0.10)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -96,6 +97,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate (= 2.4.0)
   autotest (= 4.4.6)
   i18n (= 0.5.0)
   rails (= 3.0.10)
