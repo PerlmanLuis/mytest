@@ -1,0 +1,89 @@
+[33mcommit af948e0794f4a89774230d04c3f13dc2a1f6a38e[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Sat Sep 17 09:34:53 2011 +0800
+
+    Added the password machinery
+
+[33mcommit da2ee73418b277aab86aa01a1699ca9f27b3799e[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Fri Sep 16 09:07:29 2011 +0800
+
+    Added a stb user show page
+
+[33mcommit b388b8dac1811f8c6bf29069e077a67912cd8c70[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Fri Sep 16 00:37:42 2011 +0800
+
+    User model validations
+
+[33mcommit 6324bfb2951b117fa1babb67a00b1f43b97d1d52[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Thu Sep 15 20:34:15 2011 +0800
+
+    Created a user model
+
+[33mcommit 4737f449bdbfde3bd2bbed1e905724ac1a9cabf2[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Thu Sep 15 16:02:21 2011 +0800
+
+    Added a Users controller and layout link tests
+
+[33mcommit 59a2deca7467edb08e3d0e87f79237869e3080d1[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Thu Sep 15 00:23:48 2011 +0800
+
+    Added layout links(with routes)
+
+[33mcommit ec649785423348d2f09f5ff2f6253ecb2063f152[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Wed Sep 14 13:06:52 2011 +0800
+
+    Added some partials(include a footer)
+
+[33mcommit 7c78d9ad719ba877363416a2bb22b039e76174a2[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Wed Sep 14 12:57:21 2011 +0800
+
+    Added a custom stylesheet
+
+[33mcommit 737a72814c3cd3cd348d1a09f7d2bebe08b7f5be[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Wed Sep 14 12:36:37 2011 +0800
+
+    Added a logo
+
+[33mcommit 1ee728edf211c956b229d84adf45fb70dd3af007[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Tue Sep 13 21:56:38 2011 +0800
+
+    Added a title helper and blueprint
+
+[33mcommit d64a8c121ba1b9068f1e6d6473b79ee477494142[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Tue Sep 13 17:37:55 2011 +0800
+
+    Added a title helper
+
+[33mcommit d0c1e5ce09383f495e55ee6558245de4f2c4075e[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Tue Sep 13 12:55:00 2011 +0800
+
+    Added a site layout
+
+[33mcommit 74acc0837695a7dbd4626ed5fa53394f3a453d54[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Mon Sep 12 17:49:48 2011 +0800
+
+    Added a Pages controller
+
+[33mcommit bb51593f067c719914fedcd7c03ba57cc125098a[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Mon Sep 12 17:34:06 2011 +0800
+
+    Improve the README
+
+[33mcommit d436d72e7301b56944cb599307480fe6e90721c9[m
+Author: Perlman Luis <luisweigh@gmail.com>
+Date:   Mon Sep 12 17:27:38 2011 +0800
+
+    Initial commit

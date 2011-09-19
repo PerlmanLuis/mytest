@@ -16,4 +16,5 @@ group :test do
   gem 'autotest', '4.4.6'
   gem 'i18n', '0.5.0'
   gem 'webrat', '0.7.3'
+  gem 'factory_girl_rails', '1.2.0'
 end
