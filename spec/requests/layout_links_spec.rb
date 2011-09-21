@@ -46,4 +46,36 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Sign up" )
     response.should have_selector('a[href="/"]>img')
   end
+  
+  describe "when not sign in" do
+    
+    it "should have a signin link" do
+      visit root_path
+      response.should have_selector('a', :content => "Sign in",
+                                         :href => signin_path)
+    end
+  end
+  
+  describe "when sign in" do
+    
+    before(:each) do
+      @user = Factory(:user)
+      visit signin_path
+      fill_in "email",    :with => @user.email
+      fill_in "password", :with => @user.password
+      click_button
+    end
+    
+    it "should have a signout link" do
+      visit root_path
+      response.should have_selector('a', :content => "Sign out",
+                                         :href => signout_path)
+    end
+    
+    it "should have a profile link" do
+      visit root_path
+      response.should have_selector('a', :content => "Profile",
+                                         :href => users_path(@user))
+    end
+  end
 end
