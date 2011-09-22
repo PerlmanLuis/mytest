@@ -176,23 +176,30 @@ describe UsersController do
         @user.encrypted_password == user.encrypted_password
       end
       
-      # it "should redirect to the user show page" do
-        # put :update, :id => @user, :user => @attr
-        # response.should redirect_to(user_path(assigns(:user)))
-      # end
-#       
       it "should have a welcome message" do
         put :update, :id => @user, :user => @attr
         flash[:success].should =~ /updated/i
       end
-#       
-      # it "should sign the user in" do
-        # put :update, :id => @user, :user => @attr
-        # controller.should be_signed_in
-      # end
-      
-      
-      
+
+    end
+    
+  end
+  
+  describe "authentication of edit/update users" do
+    
+    before(:each) do
+      @user = Factory(:user)
+    end
+    
+    it "should deny access to 'edit'" do
+      put :edit, :id => @user
+      response.should redirect_to(signin_path)
+      flash[:notice].should =~ /sign in/i
+    end
+
+    it "should deny access to 'update'" do
+      post :update, :id => @user, :user => {}
+      response.should redirect_to(signin_path)
     end
     
   end
