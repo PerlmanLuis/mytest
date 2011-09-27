@@ -3,7 +3,7 @@ class Micropost < ActiveRecord::Base
   attr_accessible :content
   
   
-  validates :content, :length   => { :maximum => 50},
+  validates :content, :length   => { :maximum => 140},
                       :presence => true
   
   validates :user_id, :presence => true
