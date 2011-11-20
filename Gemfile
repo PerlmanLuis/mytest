@@ -19,4 +19,5 @@ group :test do
   gem 'i18n', '0.5.0'
   gem 'webrat', '0.7.3'
   gem 'factory_girl_rails', '1.2.0'
+  gem 'spork', '> 0.9.0.rc'
 end
